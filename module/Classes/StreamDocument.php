@@ -27,5 +27,11 @@ class StreamDocument implements ContentInterface {
     {
         return 'resource-'.(int)$this->resource;
     }
+    
+    public function hasData()
+    {
+        
+        return true;
+    }
 
 }
